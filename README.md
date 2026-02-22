@@ -88,14 +88,25 @@ Each visualization serves a distinct analytical purpose while remaining intuitiv
 
 ---
 
-## Key Insights
+## Key Insights & Recommendations
 
-Several notable observations emerged from the analysis:
+Over the past decade, clear differences emerged in how each asset balanced risk and return.
 
-- Al Rajhi Bank demonstrated the strongest risk-adjusted performance over the observed period.
-- Significant volatility spikes occurred during the 2020 COVID-19 market disruption.
-- Correlations between major Saudi equities are moderate, suggesting limited but meaningful diversification benefits.
-- Higher volatility does not consistently result in higher returns, reinforcing the importance of risk-adjusted evaluation.
+Al Rajhi Bank stood out for delivering the most consistent risk-adjusted performance. While it experienced normal market fluctuations, its returns were more efficient relative to the level of volatility investors faced. From a portfolio perspective, this makes it a strong candidate as a core holding.
+
+SABIC showed higher periods of volatility without generating proportionally stronger long-term returns. This suggests that taking additional risk did not necessarily result in better overall performance during the observed period.
+
+The 2020 market disruption highlighted how quickly volatility can rise and how meaningful drawdowns can become during periods of global uncertainty. This reinforces the importance of monitoring downside risk rather than focusing only on average returns.
+
+Correlation levels between the selected assets were moderate. While diversification within the Saudi market does provide some risk reduction, the benefit is limited due to shared macroeconomic exposure.
+
+### Recommendations
+
+For long-term investors, prioritizing assets with stronger risk-adjusted returns may lead to more stable portfolio growth than simply targeting higher raw returns.
+
+Maintaining diversification remains important, but investors should also monitor volatility trends and potential drawdowns, especially during periods of economic stress.
+
+Ultimately, disciplined risk management should guide allocation decisions as much as return expectations.
 
 ---
 
