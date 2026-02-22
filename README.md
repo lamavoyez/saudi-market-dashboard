@@ -1,9 +1,10 @@
-# saudi-market-dashboard
+# Saudi Market Performance Dashboard
 ## Risk vs Return Analysis (2016–2026)
 
 ##  Dashboard Preview
 
 ![Saudi Market Dashboard](dashboard_screenshots/SMP.PNG)
+*Interactive dashboard built in Tableau analyzing risk-return dynamics of major Saudi market assets (2016–2026).*
 
 ---
 
@@ -45,29 +46,7 @@ The dataset includes adjusted daily closing prices beginning in 2015 to ensure s
 
 ## Methodology
 
-The analysis follows a structured quantitative workflow:
-
-### 1. Data Preparation
-- Downloaded historical adjusted price data
-- Removed missing values and ensured chronological consistency
-- Structured dataset for multi-asset comparison
-
-### 2. Return Calculations
-- Computed daily returns
-- Calculated cumulative returns to assess long-term growth
-- Annualized returns using 252 trading days
-
-### 3. Risk Metrics
-- Annualized volatility (standard deviation of daily returns)
-- 30-day rolling volatility to identify short-term risk spikes
-- Maximum drawdown to measure peak-to-trough capital loss
-- Sharpe Ratio (risk-free rate assumed at 0%) to evaluate risk-adjusted performance
-
-### 4. Correlation Analysis
-- Constructed a correlation matrix of daily returns
-- Assessed diversification potential across assets
-
-All calculations were performed using Python (Pandas, NumPy) to ensure reproducibility and transparency.
+The data preparation process involved downloading adjusted historical price data, removing missing values, and ensuring chronological consistency. Daily returns were calculated, followed by cumulative returns to measure long-term growth. Annualized return and volatility were computed using 252 trading days. Risk metrics such as maximum drawdown and Sharpe ratio were then derived. Finally, a correlation matrix was constructed to evaluate diversification potential across assets.
 
 ---
 
@@ -88,26 +67,25 @@ Each visualization serves a distinct analytical purpose while remaining intuitiv
 
 ---
 
-## Key Insights & Recommendations
+## Key Insights 
 
-Over the past decade, clear differences emerged in how each asset balanced risk and return.
+Over the past decade, the assets showed clear differences in how they balanced risk and return.
 
-Al Rajhi Bank stood out for delivering the most consistent risk-adjusted performance. While it experienced normal market fluctuations, its returns were more efficient relative to the level of volatility investors faced. From a portfolio perspective, this makes it a strong candidate as a core holding.
+Al Rajhi Bank delivered the most consistent risk-adjusted performance overall. Although it experienced normal market fluctuations, it rewarded investors more efficiently relative to the level of volatility taken on. From a portfolio standpoint, it stands out as a strong core holding.
 
-SABIC showed higher periods of volatility without generating proportionally stronger long-term returns. This suggests that taking additional risk did not necessarily result in better overall performance during the observed period.
+SABIC, in contrast, experienced higher volatility without delivering proportionally stronger long-term returns. This suggests that additional risk did not consistently translate into better performance during the period analyzed.
 
-The 2020 market disruption highlighted how quickly volatility can rise and how meaningful drawdowns can become during periods of global uncertainty. This reinforces the importance of monitoring downside risk rather than focusing only on average returns.
+The 2020 market shock demonstrated how quickly volatility can increase and how significant drawdowns can become during periods of global uncertainty. It serves as a reminder that downside protection matters as much as return generation.
 
-Correlation levels between the selected assets were moderate. While diversification within the Saudi market does provide some risk reduction, the benefit is limited due to shared macroeconomic exposure.
+Correlations between the selected assets were moderate. While diversification within the Saudi market provides some risk reduction, the overall benefit remains limited due to shared macroeconomic exposure.
 
 ### Recommendations
 
-For long-term investors, prioritizing assets with stronger risk-adjusted returns may lead to more stable portfolio growth than simply targeting higher raw returns.
+Long-term investors may benefit from prioritizing assets with stronger risk-adjusted performance rather than focusing solely on absolute returns.
 
-Maintaining diversification remains important, but investors should also monitor volatility trends and potential drawdowns, especially during periods of economic stress.
+Diversification should remain part of the strategy, but monitoring volatility trends and drawdown risk is equally important, particularly during unstable market conditions.
 
-Ultimately, disciplined risk management should guide allocation decisions as much as return expectations.
-
+In the end, sustainable portfolio growth depends not only on returns, but on consistent and disciplined risk management.
 ---
 
 ## Live Dashboard
@@ -150,4 +128,4 @@ The dashboard is interactive and allows users to explore performance metrics dyn
 
 ## Conclusion
 
-This project demonstrates how quantitative financial analysis can be translated into a clear, decision-oriented dashboard. By combining statistical rigor with intuitive visualization, the dashboard bridges the gap between raw market data and actionable investment insight.
+This project demonstrates how structured financial analysis can support clearer investment decisions through practical and intuitive visual insights. By combining statistical rigor with thoughtful dashboard design, the analysis transforms raw market data into meaningful, decision-oriented intelligence.
