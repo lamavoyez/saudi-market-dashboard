@@ -3,7 +3,7 @@
 
 ##  Dashboard Preview
 
-![Saudi Market Dashboard](dashboard_screenshots/SMP.png)
+![Saudi Market Dashboard](dashboard_screenshots/SMP.PNG)
 
 ---
 
