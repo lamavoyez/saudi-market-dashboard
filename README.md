@@ -1,6 +1,10 @@
 # saudi-market-dashboard
 ## Risk vs Return Analysis (2016–2026)
 
+##  Dashboard Preview
+
+![Saudi Market Dashboard](dashboard_screenshots/SMP.png)
+
 ---
 
 ## Executive Summary
